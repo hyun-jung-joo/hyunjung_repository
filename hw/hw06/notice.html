@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>notice</title>
+    <style>
+        * {
+            background-color: #FBF8BE;
+        }
+
+        h1 {
+            color: #234E70;
+            border: 5px solid #234E70;
+            width: 350px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        #notice {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+        }
+        #notice ol {
+            border-right: 1px solid #234E70;
+            width: 300px;
+            margin: 0;
+            padding-top: 10px;
+            padding-left: 36px;
+        }
+        #content {
+            float: right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>공지사항 (NOTICE)</h1>
+    <hr>
+    <div id="notice">
+        <ol>
+            <li><a href="./notice1.html" target="if">ALBUM PLACE 앨범 판매 공지</a></li><br>
+            <li><a href="./notice2.html" target="if">배송 관련 공지</a></li><br>
+            <li><a href="./notice3.html" target="if">입금 관련 공지</a></li><br>
+            <li><a href="./notice4.html" target="if">환불 및 교환 공지</a></li><br>
+        </ol>
+        <div id="content">
+            <iframe name="if" width="1000" height="500" src="./basic06.html"  
+             frameborder="0" scrolling="yes"></iframe>
+        </div>
+    </div>
+    
+</body><br>
+<a href="./hw06.html" target="_self">
+    [ HOME ]
+</a>
+</html>
