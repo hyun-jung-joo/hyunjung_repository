@@ -1,0 +1,11 @@
+int i, j;
+	int minIndex, temp;
+	int size3 = size1 + size2;
+
+	for (i = 0; i < size1; i++)
+		setResult[i] = set1[i];
+		
+	for (j = 0; j < size2; j++)
+		setResult[i++] = set2[j];
+	
+	return size3;
