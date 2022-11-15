@@ -1,3 +1,5 @@
+   <%--20210815 컴퓨터학과 주현정 --%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" import="java.util.ArrayList"%>
 <!DOCTYPE html>
@@ -20,7 +22,7 @@
 <style>
 OL {
 	text-align:left;
-	width: 130px;
+	width: 160px;
   	margin-left: auto;
   	margin-right: auto;
 }
