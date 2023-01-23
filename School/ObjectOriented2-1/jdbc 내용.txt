@@ -1,0 +1,46 @@
+sqlplus
+
+--scott/tiger 로 로그인
+
+--부모 먼저 생성(dept table)
+create table dept(
+did varchar2(5),
+dname varchar2(15),
+primary key(did));
+
+-- student 생성
+create table student (
+sid varchar2(5) not null primary key,
+sname varchar2(10) not null,
+did varchar2(5) not null,
+constraint fk_did foreign key (did) references dept(did) );
+
+-- dept insert
+insert into dept
+values ('1001', '컴퓨터과'); // 두번 넣으면 에러 key 가 같으면 안된다
+
+insert into dept
+values ('2001', '체육과');
+
+-- student insert
+insert into student
+values ('501', '박지성', '1001');
+
+insert into student
+values ('401', '김연아', '2001');
+
+insert into student
+values ('402', '장미란', '2001');
+
+insert into student
+values ('502', '추신수', '1001');
+
+insert into student
+values ('602', '홍길동', '3001');
+
+-- 저장
+commit;
+
+-- HOST NAME
+LAPTOP-HJ
+
