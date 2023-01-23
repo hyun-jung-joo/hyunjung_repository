@@ -1,4 +1,0 @@
-﻿  HW12_1.c
-C:\2021 컴프\LABHW12\HW12_1\HW12_1.c(26,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\2021 컴프\LABHW12\HW12_1\HW12_1.c(9,6): warning C4101: 'getNum' :참조되지 않은 지역 변수입니다.
-  HW12_1.vcxproj -> C:\2021 컴프\LABHW12\Debug\HW12_1.exe
